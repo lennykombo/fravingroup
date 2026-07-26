@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #f58220;
+  --color-brand-navy: #051124; /* Exact Midnight Navy from the image */
+  --color-brand-navy-light: #0a1b3d; /* Lighter navy for cards */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply antialiased text-zinc-900;
+}
