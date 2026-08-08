@@ -8,6 +8,8 @@ import CorporateFooter from './components/fravin/CorporateFooter';
 
 // Pages
 import FravinHome from './pages/fravin/Home';
+import SecurityServiceDetail from './pages/fravin/SecurityServiceDetail';
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -39,6 +41,7 @@ function App() {
         
         <Routes>
           <Route path="/" element={<FravinHome />} />
+          <Route path="/services/security/:id" element={<SecurityServiceDetail />} /> 
         </Routes>
 
         <CorporateFooter />
